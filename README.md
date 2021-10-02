@@ -20,11 +20,11 @@ It provided a starting toolchain including testing libraries: Jest, React and Us
 The toolchain also provides scripts to start the app in development mode, to run the tests, and to build the app.
 
 ## Methodology
-I used a test-driven methodology by writing jest tests starting with `./utils/c onvertNumerals.test.js`  
+I used a test-driven methodology by writing jest tests starting with `./utils/ConvertNumerals.test.js`  
 The strategy for converting numbers to Roman numerals was to process the number like a string array, 
 using the array index to target and process the ones, tens, hundreds and thousands places, and to set the corresponding Roman numerals.
 
-`./utils/parseNumber.js` is used to parse the query string, set boundary conditions and error setting.
+`./utils/ParseNumber.js` is used to parse the query string, set boundary conditions and error setting.
 
 The front-end application code `App.js` runs from `romanrumeral.js` when users enter a URL such as http://localhost:8080/romannumeral?query=100 
 
